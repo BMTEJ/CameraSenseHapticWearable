@@ -9068,7 +9068,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "330 ohm"
 			(at 103.124 209.042 90)
 			(effects
 				(font
@@ -10422,7 +10422,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "330 ohm"
 			(at 103.124 201.422 90)
 			(effects
 				(font
