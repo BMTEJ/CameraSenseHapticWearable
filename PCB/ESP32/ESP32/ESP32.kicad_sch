@@ -7664,7 +7664,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "USB_Micro:CONN_10118193-0001LF_AMP"
 			(at 41.91 199.39 0)
 			(effects
 				(font

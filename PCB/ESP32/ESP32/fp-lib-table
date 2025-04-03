@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "USB_Micro")(type "KiCad")(uri "C:/Users/janus/OneDrive/Documents/GitHub/CameraSenseHapticWearable/PCB/ESP32/ESP32_sym_footprint/USB_Micro/footprints.pretty")(options "")(descr "USB Micro B"))
+)
