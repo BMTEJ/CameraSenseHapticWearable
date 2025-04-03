@@ -6300,7 +6300,6 @@
 	)
 	(label "D7"
 		(at 102.87 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6311,7 +6310,6 @@
 	)
 	(label "SDA"
 		(at 273.05 53.34 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6322,7 +6320,6 @@
 	)
 	(label "MCLK"
 		(at 306.07 123.19 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6333,7 +6330,6 @@
 	)
 	(label "D1"
 		(at 306.07 140.97 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6344,7 +6340,6 @@
 	)
 	(label "D3"
 		(at 105.41 69.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6355,7 +6350,6 @@
 	)
 	(label "Reset"
 		(at 306.07 146.05 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6366,7 +6360,6 @@
 	)
 	(label "D5"
 		(at 306.07 130.81 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6377,7 +6370,6 @@
 	)
 	(label "Reset"
 		(at 99.06 41.91 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6388,7 +6380,6 @@
 	)
 	(label "D7"
 		(at 306.07 125.73 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6399,7 +6390,6 @@
 	)
 	(label "D4"
 		(at 306.07 133.35 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6410,7 +6400,6 @@
 	)
 	(label "PWNN"
 		(at 307.34 148.59 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6421,7 +6410,6 @@
 	)
 	(label "VS"
 		(at 105.41 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6432,7 +6420,6 @@
 	)
 	(label "D6"
 		(at 105.41 77.47 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6443,7 +6430,6 @@
 	)
 	(label "USB_D+"
 		(at 45.72 198.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6454,7 +6440,6 @@
 	)
 	(label "D6"
 		(at 306.07 128.27 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6465,7 +6450,6 @@
 	)
 	(label "SCL"
 		(at 107.95 81.28 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6476,7 +6460,6 @@
 	)
 	(label "D4"
 		(at 105.41 72.39 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6487,7 +6470,6 @@
 	)
 	(label "MCLK"
 		(at 105.41 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6498,7 +6480,6 @@
 	)
 	(label "D0"
 		(at 105.41 62.23 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6509,7 +6490,6 @@
 	)
 	(label "D3"
 		(at 306.07 135.89 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6520,7 +6500,6 @@
 	)
 	(label "USB_D-"
 		(at 148.59 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6531,7 +6510,6 @@
 	)
 	(label "PWNN"
 		(at 102.87 88.9 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6542,7 +6520,6 @@
 	)
 	(label "D0"
 		(at 306.07 143.51 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6553,7 +6530,6 @@
 	)
 	(label "D2"
 		(at 306.07 138.43 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6564,7 +6540,6 @@
 	)
 	(label "USB_D+"
 		(at 148.59 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6575,7 +6550,6 @@
 	)
 	(label "SDA"
 		(at 107.95 83.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6586,7 +6560,6 @@
 	)
 	(label "VS"
 		(at 309.88 115.57 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6597,7 +6570,6 @@
 	)
 	(label "PCLK"
 		(at 104.14 91.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6608,7 +6580,6 @@
 	)
 	(label "USB_D-"
 		(at 45.72 200.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6619,7 +6590,6 @@
 	)
 	(label "D1"
 		(at 105.41 64.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6630,7 +6600,6 @@
 	)
 	(label "HS"
 		(at 308.61 118.11 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6641,7 +6610,6 @@
 	)
 	(label "PCLK"
 		(at 307.34 120.65 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6652,7 +6620,6 @@
 	)
 	(label "D2"
 		(at 105.41 67.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6663,7 +6630,6 @@
 	)
 	(label "D5"
 		(at 105.41 74.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6674,7 +6640,6 @@
 	)
 	(label "HS"
 		(at 148.59 55.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6685,7 +6650,6 @@
 	)
 	(label "SCL"
 		(at 271.78 46.99 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6858,7 +6822,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ESP32_sym_footprint:CONN2_B2B-PH-K-S_JST"
 			(at 328.93 30.48 0)
 			(effects
 				(font
@@ -6932,7 +6896,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ESP32-S2-SOLO-U-N4:XCVR_ESP32-S2-SOLO-U-N4"
+		(property "Footprint" "ESP32_sym_footprint:XCVR_ESP32-S2-SOLO-U-N4"
 			(at 127 71.12 0)
 			(effects
 				(font
@@ -7673,7 +7637,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ESP32_sym_footprint:SW_TL59AF160Q_EWI"
 			(at 166.37 60.96 0)
 			(effects
 				(font
@@ -7747,7 +7711,7 @@
 				)
 			)
 		)
-		(property "Footprint" "USB_Micro:CONN_10118193-0001LF_AMP"
+		(property "Footprint" "ESP32_sym_footprint:CONN_10118193-0001LF_AMP"
 			(at 41.91 199.39 0)
 			(effects
 				(font
@@ -7833,7 +7797,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Schottky_Diode_Battery:DO-41_STM"
+		(property "Footprint" "ESP32_sym_footprint:DO-41_STM"
 			(at 195.58 186.69 0)
 			(effects
 				(font
@@ -8022,7 +7986,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT-23-5_MC_MCH"
+		(property "Footprint" "ESP32_sym_footprint:SOT-23-5_MC_MCH"
 			(at 126.492 182.372 0)
 			(effects
 				(font
@@ -8681,7 +8645,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DGS0010A_N"
+		(property "Footprint" "ESP32_sym_footprint:DGS0010A_L"
 			(at 293.37 40.64 0)
 			(effects
 				(font
@@ -9222,7 +9186,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ESP32_sym_footprint:SW_TL59AF160Q_EWI"
 			(at 90.17 45.72 0)
 			(effects
 				(font
@@ -9370,7 +9334,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 104.14 43.18 0)
 			(effects
 				(font
@@ -10285,7 +10249,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ESP32_sym_footprint:SW_TL59AF160Q_EWI"
 			(at 93.98 59.69 0)
 			(effects
 				(font
@@ -10720,7 +10684,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical"
+		(property "Footprint" "ESP32_sym_footprint:CONN2_B2B-PH-K-S_JST"
 			(at 208.28 186.69 0)
 			(effects
 				(font
