@@ -4963,7 +4963,7 @@
 			)
 			(project "ESP32"
 				(path "/f9099a9a-ca12-4d9e-a4e7-b3f085e605c9"
-					(reference "#PWR0102")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -6237,7 +6237,7 @@
 			)
 			(project "ESP32"
 				(path "/f9099a9a-ca12-4d9e-a4e7-b3f085e605c9"
-					(reference "#PWR0111")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -6383,7 +6383,7 @@
 			)
 			(project "ESP32"
 				(path "/f9099a9a-ca12-4d9e-a4e7-b3f085e605c9"
-					(reference "#PWR0107")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -6523,7 +6523,7 @@
 			)
 			(project "ESP32"
 				(path "/f9099a9a-ca12-4d9e-a4e7-b3f085e605c9"
-					(reference "#PWR0105")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -6835,7 +6835,7 @@
 			)
 			(project "ESP32"
 				(path "/f9099a9a-ca12-4d9e-a4e7-b3f085e605c9"
-					(reference "#PWR0112")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -7271,7 +7271,7 @@
 			)
 			(project "ESP32"
 				(path "/f9099a9a-ca12-4d9e-a4e7-b3f085e605c9"
-					(reference "#PWR0103")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -7417,7 +7417,7 @@
 			)
 			(project "ESP32"
 				(path "/f9099a9a-ca12-4d9e-a4e7-b3f085e605c9"
-					(reference "#PWR0101")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -7921,7 +7921,7 @@
 			)
 			(project "ESP32"
 				(path "/f9099a9a-ca12-4d9e-a4e7-b3f085e605c9"
-					(reference "#PWR0104")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -8201,7 +8201,7 @@
 			)
 			(project "ESP32"
 				(path "/f9099a9a-ca12-4d9e-a4e7-b3f085e605c9"
-					(reference "#PWR0110")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -8346,7 +8346,7 @@
 			)
 			(project "ESP32"
 				(path "/f9099a9a-ca12-4d9e-a4e7-b3f085e605c9"
-					(reference "#PWR0106")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -8491,7 +8491,7 @@
 			)
 			(project "ESP32"
 				(path "/f9099a9a-ca12-4d9e-a4e7-b3f085e605c9"
-					(reference "#PWR0109")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -8563,7 +8563,7 @@
 			)
 			(project "ESP32"
 				(path "/f9099a9a-ca12-4d9e-a4e7-b3f085e605c9"
-					(reference "#PWR0108")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
