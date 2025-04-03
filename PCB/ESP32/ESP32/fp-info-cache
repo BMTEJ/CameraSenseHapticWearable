@@ -1,4 +1,4 @@
-24652995755162668
+24654739406816223
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57231,6 +57231,13 @@ CONN_10118193-0001LF_AMP
 0
 11
 11
+ESP32_sym_footprint
+DGS0010A_L
+
+DRV2605LTDGSRQ1 
+0
+10
+10
 ESP32_sym_footprint
 DO-41_STM
 
