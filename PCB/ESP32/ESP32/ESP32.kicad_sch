@@ -7496,6 +7496,7 @@
 	)
 	(label "D7"
 		(at 102.87 78.74 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7506,6 +7507,7 @@
 	)
 	(label "USB_D+"
 		(at 44.45 200.66 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7516,6 +7518,7 @@
 	)
 	(label "SDA"
 		(at 273.05 53.34 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7526,6 +7529,7 @@
 	)
 	(label "SDA"
 		(at 316.23 119.38 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7536,6 +7540,7 @@
 	)
 	(label "D6"
 		(at 298.45 127 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7546,6 +7551,7 @@
 	)
 	(label "D3"
 		(at 105.41 69.85 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7556,6 +7562,7 @@
 	)
 	(label "D0"
 		(at 298.45 134.62 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7566,6 +7573,7 @@
 	)
 	(label "VS"
 		(at 105.41 96.52 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7576,6 +7584,7 @@
 	)
 	(label "USB_D-"
 		(at 44.45 203.2 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7586,6 +7595,7 @@
 	)
 	(label "D6"
 		(at 105.41 77.47 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7596,6 +7606,7 @@
 	)
 	(label "D7"
 		(at 259.08 127 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7606,6 +7617,7 @@
 	)
 	(label "D5"
 		(at 259.08 129.54 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7616,6 +7628,7 @@
 	)
 	(label "VS"
 		(at 259.08 121.92 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7626,6 +7639,7 @@
 	)
 	(label "MCLK"
 		(at 331.47 124.46 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7636,6 +7650,7 @@
 	)
 	(label "SCL"
 		(at 107.95 81.28 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7646,6 +7661,7 @@
 	)
 	(label "D4"
 		(at 105.41 72.39 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7656,6 +7672,7 @@
 	)
 	(label "SCL"
 		(at 240.03 119.38 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7666,6 +7683,7 @@
 	)
 	(label "MCLK"
 		(at 105.41 93.98 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7676,6 +7694,7 @@
 	)
 	(label "D0"
 		(at 105.41 62.23 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7686,6 +7705,7 @@
 	)
 	(label "D2"
 		(at 298.45 132.08 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7696,6 +7716,7 @@
 	)
 	(label "USB_D-"
 		(at 148.59 63.5 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7706,6 +7727,7 @@
 	)
 	(label "USB_D+"
 		(at 148.59 66.04 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7716,6 +7738,7 @@
 	)
 	(label "PCLK"
 		(at 259.08 124.46 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7726,6 +7749,7 @@
 	)
 	(label "SDA"
 		(at 107.95 83.82 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7736,6 +7760,7 @@
 	)
 	(label "PCLK"
 		(at 104.14 91.44 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7746,6 +7771,7 @@
 	)
 	(label "D4"
 		(at 298.45 129.54 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7756,6 +7782,7 @@
 	)
 	(label "D1"
 		(at 105.41 64.77 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7766,6 +7793,7 @@
 	)
 	(label "D1"
 		(at 259.08 134.62 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7776,6 +7804,7 @@
 	)
 	(label "D2"
 		(at 105.41 67.31 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7786,6 +7815,7 @@
 	)
 	(label "D3"
 		(at 259.08 132.08 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7796,6 +7826,7 @@
 	)
 	(label "HS"
 		(at 298.45 121.92 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7806,6 +7837,7 @@
 	)
 	(label "D5"
 		(at 105.41 74.93 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7816,6 +7848,7 @@
 	)
 	(label "HS"
 		(at 148.59 55.88 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7826,6 +7859,7 @@
 	)
 	(label "SCL"
 		(at 271.78 46.99 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8198,7 +8232,7 @@
 				)
 			)
 		)
-		(property "Footprint" "zzzzz:CONN2_B2B-PH-K-S_JST"
+		(property "Footprint" "Footprint:CONN2_B2B-PH-K-S_JST"
 			(at 328.93 30.48 0)
 			(effects
 				(font
@@ -8272,7 +8306,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ESP32_sym_footprint:XCVR_ESP32-S2-SOLO-U-N4"
+		(property "Footprint" "Footprint:XCVR_ESP32-S2-SOLO-U-N4"
 			(at 127 71.12 0)
 			(effects
 				(font
@@ -9068,7 +9102,7 @@
 				)
 			)
 		)
-		(property "Footprint" "zzzzz:B3U-1000P"
+		(property "Footprint" "Footprint:B3U-1000P"
 			(at 166.37 60.96 0)
 			(effects
 				(font
@@ -9341,7 +9375,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "zzzzz:CONN2_B2B-PH-K-S_JST"
+		(property "Footprint" "Footprint:CONN2_B2B-PH-K-S_JST"
 			(at 156.21 217.17 0)
 			(effects
 				(font
@@ -9409,7 +9443,7 @@
 				)
 			)
 		)
-		(property "Footprint" "zzzzz:SOT-23-5_MC_MCH"
+		(property "Footprint" "Footprint:SOT-23-5_MC_MCH"
 			(at 93.472 184.912 0)
 			(effects
 				(font
@@ -9562,7 +9596,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CONN9_PPTC091LFBN-RC_SUL"
+		(property "Footprint" "Footprint:CONN9_PPTC091LFBN-RC_SUL"
 			(at 271.78 115.57 0)
 			(effects
 				(font
@@ -10496,7 +10530,7 @@
 				)
 			)
 		)
-		(property "Footprint" "zzzzz:DGS0010A_L"
+		(property "Footprint" "Footprint:DGS0010A_L"
 			(at 293.37 40.64 0)
 			(effects
 				(font
@@ -10740,7 +10774,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CONN9_PPTC091LFBN-RC_SUL"
+		(property "Footprint" "Footprint:CONN9_PPTC091LFBN-RC_SUL"
 			(at 287.02 115.57 0)
 			(effects
 				(font
@@ -10899,7 +10933,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "zzzzz:SOT-23-5_MC_MCH"
+		(property "Footprint" "Footprint:SOT-23-5_MC_MCH"
 			(at 151.13 184.15 0)
 			(effects
 				(font
@@ -11106,7 +11140,7 @@
 				)
 			)
 		)
-		(property "Footprint" "zzzzz:B3U-1000P"
+		(property "Footprint" "Footprint:B3U-1000P"
 			(at 90.17 45.72 0)
 			(effects
 				(font
@@ -11318,7 +11352,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "zzzzz:SOT-23-5_MC_MCH"
+		(property "Footprint" "Footprint:SOT-23-5_MC_MCH"
 			(at 151.13 172.72 0)
 			(effects
 				(font
@@ -11747,7 +11781,7 @@
 				)
 			)
 		)
-		(property "Footprint" "zzzzz:CONN_10118193-0001LF_AMP"
+		(property "Footprint" "Footprint:CONN_10118193-0001LF_AMP"
 			(at 40.64 201.93 0)
 			(effects
 				(font
@@ -12248,7 +12282,7 @@
 				)
 			)
 		)
-		(property "Footprint" "zzzzz:B3U-1000P"
+		(property "Footprint" "Footprint:B3U-1000P"
 			(at 93.98 59.69 0)
 			(effects
 				(font
@@ -12459,7 +12493,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "zzzzz:SOT65P210X110-3N"
+		(property "Footprint" "Footprint:SOT65P210X110-3N"
 			(at 153.67 190.5 0)
 			(effects
 				(font
