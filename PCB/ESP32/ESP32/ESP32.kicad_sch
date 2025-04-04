@@ -4739,6 +4739,102 @@
 				)
 			)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "power:VCC"
 			(power)
 			(pin_numbers hide)
@@ -4981,6 +5077,12 @@
 		(uuid "7fd63a78-20ad-4e20-9bb6-abff3be7e6b2")
 	)
 	(junction
+		(at 142.24 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99fe2db0-d622-4d52-b4b5-e56670eef7cc")
+	)
+	(junction
 		(at 144.78 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4991,6 +5093,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a5ab7fb6-e2a1-449a-b206-f547be108e20")
+	)
+	(junction
+		(at 146.05 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac8a0cad-e8c8-4227-959b-34ac7ccdeece")
 	)
 	(junction
 		(at 144.78 124.46)
@@ -5021,12 +5129,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bbdc4a8c-37b9-4dcf-bf95-cbf71c8eed2b")
-	)
-	(junction
-		(at 142.24 173.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c8789147-3fe3-419a-8268-1fad51a0b4b3")
 	)
 	(junction
 		(at 148.59 39.37)
@@ -5063,6 +5165,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d04fb947-f3d3-437b-a361-505d29d05641")
+	)
+	(junction
+		(at 182.88 196.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d26b47ff-cf50-4f2a-ad1e-75405e6f3e3f")
 	)
 	(junction
 		(at 144.78 116.84)
@@ -5320,16 +5428,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 173.99) (xy 153.67 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1444a590-3546-45a6-9d0b-fb69b5723015")
-	)
-	(wire
-		(pts
 			(xy 265.43 38.1) (xy 265.43 39.37)
 		)
 		(stroke
@@ -5490,7 +5588,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 173.99) (xy 179.07 173.99)
+			(xy 173.99 173.99) (xy 179.07 173.99)
 		)
 		(stroke
 			(width 0)
@@ -5717,6 +5815,16 @@
 			(type default)
 		)
 		(uuid "548cc862-3596-4ad0-b3fb-3b4a10081a01")
+	)
+	(wire
+		(pts
+			(xy 142.24 173.99) (xy 142.24 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55383fe7-21c7-4748-8bf5-03774c121201")
 	)
 	(wire
 		(pts
@@ -6210,6 +6318,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 173.99) (xy 166.37 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ec57c63-5e22-48fa-9d64-41f2c8ce69aa")
+	)
+	(wire
+		(pts
 			(xy 76.2 209.55) (xy 76.2 200.66)
 		)
 		(stroke
@@ -6327,6 +6445,16 @@
 			(type default)
 		)
 		(uuid "a8e69882-871e-48e8-86a2-fe21f38c3d7f")
+	)
+	(wire
+		(pts
+			(xy 161.29 170.18) (xy 161.29 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a91a89a5-7479-44ec-99f0-b89c3d7bdd0f")
 	)
 	(wire
 		(pts
@@ -6590,6 +6718,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 170.18) (xy 146.05 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2191a80-229d-4e60-94b6-8e311fdb24d8")
+	)
+	(wire
+		(pts
 			(xy 254 49.53) (xy 254 52.07)
 		)
 		(stroke
@@ -6767,6 +6905,16 @@
 			(type default)
 		)
 		(uuid "e91662e8-0d4b-4163-addc-3689230d2711")
+	)
+	(wire
+		(pts
+			(xy 142.24 172.72) (xy 146.05 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec3e5858-1c85-4671-8fdc-8e306cdc9d27")
 	)
 	(wire
 		(pts
@@ -7363,7 +7511,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 309.88 114.3 0)
 			(effects
 				(font
@@ -7400,6 +7548,72 @@
 			(project "ESP32"
 				(path "/f9099a9a-ca12-4d9e-a4e7-b3f085e605c9"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 153.67 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c5a3005-f46e-41aa-986f-022cb2982277")
+		(property "Reference" "#PWR01"
+			(at 153.67 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 153.67 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72927231-c53d-4219-9eec-123f39355a3c")
+		)
+		(instances
+			(project "ESP32"
+				(path "/f9099a9a-ca12-4d9e-a4e7-b3f085e605c9"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -7497,7 +7711,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ESP32_sym_footprint:CONN2_B2B-PH-K-S_JST"
+		(property "Footprint" "zzzzz:CONN2_B2B-PH-K-S_JST"
 			(at 328.93 30.48 0)
 			(effects
 				(font
@@ -8095,7 +8309,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 166.37 53.34 0)
 			(effects
 				(font
@@ -8553,6 +8767,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 182.88 196.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49d468a2-2682-4117-b4c5-3e71d7086d40")
+		(property "Reference" "#PWR02"
+			(at 182.88 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 182.88 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 182.88 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2c72b47-8a21-4698-903e-b4833a666620")
+		)
+		(instances
+			(project ""
+				(path "/f9099a9a-ca12-4d9e-a4e7-b3f085e605c9"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
 		(at 156.21 217.17 0)
 		(unit 1)
@@ -8580,7 +8860,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ESP32_sym_footprint:CONN2_B2B-PH-K-S_JST"
+		(property "Footprint" "zzzzz:CONN2_B2B-PH-K-S_JST"
 			(at 156.21 217.17 0)
 			(effects
 				(font
@@ -8648,7 +8928,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT-23-5_MC_MCH"
+		(property "Footprint" "zzzzz:SOT-23-5_MC_MCH"
 			(at 93.472 184.912 0)
 			(effects
 				(font
@@ -8733,7 +9013,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "zzzzz:215307-9_TYC"
 			(at 284.48 130.81 0)
 			(effects
 				(font
@@ -8921,7 +9201,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 93.98 67.31 0)
 			(effects
 				(font
@@ -8991,7 +9271,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 123.952 177.8 90)
 			(effects
 				(font
@@ -9273,7 +9553,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 270.51 38.1 0)
 			(effects
 				(font
@@ -9349,7 +9629,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 162.2552 187.96 0)
 			(effects
 				(font
@@ -9687,7 +9967,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ESP32_sym_footprint:DGS0010A_L"
+		(property "Footprint" "zzzzz:DGS0010A_L"
 			(at 293.37 40.64 0)
 			(effects
 				(font
@@ -9927,7 +10207,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 309.88 132.08 0)
 			(effects
 				(font
@@ -9995,7 +10275,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 265.43 55.88 0)
 			(effects
 				(font
@@ -10351,7 +10631,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 104.14 43.18 0)
 			(effects
 				(font
@@ -10527,7 +10807,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 157.48 173.99 180)
+		(at 170.18 173.99 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10536,7 +10816,7 @@
 		(fields_autoplaced yes)
 		(uuid "a4a5fce4-c661-465c-a8e1-c7577b870de2")
 		(property "Reference" "D1"
-			(at 157.7975 167.64 0)
+			(at 170.4975 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10544,15 +10824,15 @@
 			)
 		)
 		(property "Value" "D_Schottky"
-			(at 157.7975 170.18 0)
+			(at 170.4975 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 157.48 173.99 0)
+		(property "Footprint" "zzzzz:SOT-23-5_MC_MCH"
+			(at 170.18 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10561,7 +10841,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 157.48 173.99 0)
+			(at 170.18 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10570,7 +10850,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 157.48 173.99 0)
+			(at 170.18 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10694,7 +10974,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 259.08 52.07 0)
 			(effects
 				(font
@@ -10770,7 +11050,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 259.08 114.3 0)
 			(effects
 				(font
@@ -10840,7 +11120,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 183.8452 204.47 0)
 			(effects
 				(font
@@ -10916,7 +11196,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 165.1 36.83 0)
 			(effects
 				(font
@@ -10984,7 +11264,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ESP32_sym_footprint:CONN_10118193-0001LF_AMP"
+		(property "Footprint" "zzzzz:CONN_10118193-0001LF_AMP"
 			(at 40.64 201.93 0)
 			(effects
 				(font
@@ -11066,7 +11346,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 322.58 49.53 0)
 			(effects
 				(font
@@ -11181,6 +11461,83 @@
 			(project ""
 				(path "/f9099a9a-ca12-4d9e-a4e7-b3f085e605c9"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:AP2112K-3.3")
+		(at 153.67 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bad7ca78-1710-4088-8a03-acc90bf4a5f6")
+		(property "Reference" "U1"
+			(at 153.67 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AP2112K-3.3"
+			(at 153.67 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 153.67 164.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2112.pdf"
+			(at 153.67 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5"
+			(at 153.67 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "95950027-cdf7-4b95-95e8-63ee9602069b")
+		)
+		(pin "5"
+			(uuid "3d481104-1c7a-49e7-9be4-0c4e243a756d")
+		)
+		(pin "3"
+			(uuid "4e1b9401-57e6-46d2-a1f8-e10ecefdb329")
+		)
+		(pin "1"
+			(uuid "d8f3023c-99c6-4c49-86dc-37f799f06675")
+		)
+		(pin "4"
+			(uuid "cddfced2-4a24-4191-9146-e087713c7115")
+		)
+		(instances
+			(project "ESP32"
+				(path "/f9099a9a-ca12-4d9e-a4e7-b3f085e605c9"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -11351,7 +11708,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 88.9 49.53 0)
 			(effects
 				(font
@@ -11925,6 +12282,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 182.88 196.85 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb66ecec-a8e0-4a00-9199-3696b18206df")
+		(property "Reference" "#FLG01"
+			(at 184.785 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 186.69 196.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 182.88 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6787f60a-5490-488d-9d29-2546ab00e577")
+		)
+		(instances
+			(project ""
+				(path "/f9099a9a-ca12-4d9e-a4e7-b3f085e605c9"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 254 49.53 0)
 		(unit 1)
@@ -12233,7 +12657,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 325.12 128.27 0)
 			(effects
 				(font
@@ -12303,7 +12727,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 154.94 36.83 0)
 			(effects
 				(font
