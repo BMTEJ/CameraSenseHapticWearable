@@ -5,4 +5,5 @@
   (lib (name "AdafruitMC")(type "KiCad")(uri "C:/Users/allen/OneDrive/Desktop/HOPE/Project/CameraSenseHapticWearable/PCB/JanusSchematic/2025-03-16_03-04-49.kicad_sym")(options "")(descr "AdafruitMCSym"))
   (lib (name "BSS84WQ-7-F")(type "KiCad")(uri "C:/Users/allen/OneDrive/Documents/GitHub/CameraSenseHapticWearable/PCB/ESP32/Symbol/BSS84WQ-7-F.kicad_sym")(options "")(descr ""))
   (lib (name "ESP32-S2-SOLO-N4")(type "KiCad")(uri "C:/Users/allen/OneDrive/Documents/GitHub/CameraSenseHapticWearable/PCB/ESP32/Component_symbs/ESP32-S2-SOLO-N4.kicad_sym")(options "")(descr ""))
+  (lib (name "1x9_header")(type "KiCad")(uri "C:/Users/allen/OneDrive/Documents/GitHub/CameraSenseHapticWearable/PCB/ESP32/Component_symbs/1x9_header.kicad_sym")(options "")(descr ""))
 )
