@@ -8312,7 +8312,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprint:XCVR_ESP32-S2-SOLO-U-N4"
+		(property "Footprint" "ESP32_sym_footprint:XCVR_ESP32-S2-SOLO-N4"
 			(at 127 71.12 0)
 			(effects
 				(font

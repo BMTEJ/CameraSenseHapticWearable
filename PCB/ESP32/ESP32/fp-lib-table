@@ -1,7 +1,7 @@
 (fp_lib_table
   (version 7)
   (lib (name "USB_Micro")(type "KiCad")(uri "C:/Users/janus/OneDrive/Documents/GitHub/CameraSenseHapticWearable/PCB/ESP32/ESP32_sym_footprint/USB_Micro/footprints.pretty")(options "")(descr "USB Micro B"))
-  (lib (name "Schottky_Diode_Battery")(type "KiCad")(uri "C:/Users/janus/OneDrive/Documents/GitHub/CameraSenseHapticWearable/PCB/ESP32/ESP32_sym_footprint/Battery_Schottky Diode/footprints.pretty")(options "")(descr "Battery Schottky Diode"))
+  (lib (name "Schottky_Diode_Battery")(type "KiCad")(uri "C:/Users/janus/OneDrive/Documents/GitHub/CameraSenseHapticWearable/PCB/ESP32/ESP32_sym_footprint/BetterSchottky")(options "")(descr "Battery Schottky Diode"))
   (lib (name "ESP32_sym_footprint")(type "KiCad")(uri "C:/Users/janus/OneDrive/Documents/GitHub/CameraSenseHapticWearable/PCB/ESP32/ESP32_sym_footprint.pretty")(options "")(descr "This is a Catch All"))
   (lib (name "Footprint")(type "KiCad")(uri "C:/Users/janus/OneDrive/Documents/GitHub/CameraSenseHapticWearable/PCB/ESP32/Footprint.pretty")(options "")(descr ""))
 )
