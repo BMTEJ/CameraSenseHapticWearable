@@ -5705,10 +5705,6 @@
 		(uuid "dbee48bf-809d-41f0-9702-652c07ba351c")
 	)
 	(no_connect
-		(at 144.78 81.28)
-		(uuid "e240c4ad-e2d7-4f89-96a4-4d2f9a0378db")
-	)
-	(no_connect
 		(at 109.22 86.36)
 		(uuid "f038e1c3-a923-44ea-8925-62f6262c6abb")
 	)
@@ -6159,6 +6155,16 @@
 			(type default)
 		)
 		(uuid "44cd3642-cc8f-4fdb-b77f-8856c1dff2dd")
+	)
+	(wire
+		(pts
+			(xy 144.78 81.28) (xy 146.05 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47e15631-454d-4b10-bc34-33867d50dca8")
 	)
 	(wire
 		(pts
@@ -8238,7 +8244,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprint:CONN2_B2B-PH-K-S_JST"
+		(property "Footprint" "Footprint:CONN_S2B-XH-A_JST"
 			(at 328.93 30.48 0)
 			(effects
 				(font
@@ -10751,6 +10757,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 161.29 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8aa17bf8-28b6-47dc-b6c0-9b4db7968d09")
+		(property "Reference" "#PWR017"
+			(at 161.29 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 161.29 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 161.29 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5b18141-0f5b-4a7f-9357-73f8bebbb8e7")
+		)
+		(instances
+			(project ""
+				(path "/f9099a9a-ca12-4d9e-a4e7-b3f085e605c9"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 97.79 226.06 180)
 		(unit 1)
@@ -11005,7 +11077,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprint:DO-41_STM"
+		(property "Footprint" "Schottky_Diode_Battery:CR_SMA_403AE_OSI-L"
 			(at 187.96 195.58 0)
 			(effects
 				(font
@@ -11424,7 +11496,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Footprint:DO-41_STM"
+		(property "Footprint" "Schottky_Diode_Battery:CR_SMA_403AE_OSI-L"
 			(at 187.96 184.15 0)
 			(effects
 				(font
@@ -12123,6 +12195,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 157.48 81.28 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c75093fc-c375-4b4b-ab37-d04afe3443b4")
+		(property "Reference" "D2"
+			(at 159.0675 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 159.0675 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprint:LEDIndicator"
+			(at 157.48 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 157.48 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "06bb47ab-5514-43b2-b8a7-05f329e02d7a")
+		)
+		(pin "1"
+			(uuid "31024158-e82f-4ade-918b-5f28817cd1fa")
+		)
+		(instances
+			(project ""
+				(path "/f9099a9a-ca12-4d9e-a4e7-b3f085e605c9"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 265.43 39.37 0)
 		(unit 1)
@@ -12189,6 +12329,74 @@
 			(project "ESP32"
 				(path "/f9099a9a-ca12-4d9e-a4e7-b3f085e605c9"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 149.86 81.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cca66ddb-e634-42b1-815c-406148ada968")
+		(property "Reference" "R6"
+			(at 149.86 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "160hm"
+			(at 149.86 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprint:RESIndicatpr"
+			(at 149.86 83.058 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 149.86 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6cca4b95-f453-4630-afa5-7b2751f87014")
+		)
+		(pin "1"
+			(uuid "78e0693d-b703-4f73-b270-163098ec137f")
+		)
+		(instances
+			(project ""
+				(path "/f9099a9a-ca12-4d9e-a4e7-b3f085e605c9"
+					(reference "R6")
 					(unit 1)
 				)
 			)

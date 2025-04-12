@@ -1,4 +1,4 @@
-23864057043734902
+23869290096546157
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -56938,6 +56938,13 @@ CONN_10118193-0001LF_AMP
 11
 11
 Footprint
+CONN_S2B-XH-A_JST
+
+S2B-XH-A 
+0
+2
+2
+Footprint
 DGS0010A_L
 
 DRV2605LTDGSRQ1 
@@ -56948,6 +56955,20 @@ Footprint
 DO-41_STM
 
 1N5819 
+0
+2
+2
+Footprint
+LEDIndicator
+
+LTST-C190GKT 
+0
+2
+2
+Footprint
+RESIndicatpr
+
+
 0
 2
 2
